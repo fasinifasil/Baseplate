@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const API = "http://127.0.0.1:8000/api";
+const API = "https://baseplate-0ahp.onrender.com/api";
 type PageItem = {
   id: number;
   title: string;

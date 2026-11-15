@@ -22,7 +22,7 @@ type ProjectItem = {
   is_featured: boolean;
 };
 
-const API = "http://127.0.0.1:8000/api";
+const API = "https://baseplate-0ahp.onrender.com/api";
 
 const fallbackCapabilities = [
   {

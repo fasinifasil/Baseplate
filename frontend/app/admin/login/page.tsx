@@ -20,7 +20,7 @@ export default function AdminLogin() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/api/auth/token/",
+       "https://baseplate-0ahp.onrender.com/api/auth/token/",
         {
           method: "POST",
           headers: {

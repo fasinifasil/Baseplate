@@ -5,8 +5,7 @@ import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
-const API_URL = "http://127.0.0.1:8000/api/admin/pages/";
+const API_URL = "https://baseplate-0ahp.onrender.com/api/admin/pages/";
 
 type PageItem = {
   id: number;

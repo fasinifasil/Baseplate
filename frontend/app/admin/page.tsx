@@ -6,9 +6,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const PROJECT_API = "http://127.0.0.1:8000/api/admin/projects/";
-const SERVICE_API = "http://127.0.0.1:8000/api/services/";
-
+const PROJECT_API = "https://baseplate-0ahp.onrender.com/api/admin/projects/";
+const SERVICE_API = "https://baseplate-0ahp.onrender.com/api/services/";
 type DashboardStats = {
   projects: number;
   services: number;

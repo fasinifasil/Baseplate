@@ -3,8 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 const API_BASE_URL =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000/api";
-
+process.env.NEXT_PUBLIC_API_BASE_URL || "https://baseplate-0ahp.onrender.com/api";
 type Project = {
   id: number;
   title: string;
@@ -390,8 +389,7 @@ export default function ProjectsPage() {
       </section>
 
       <footer className="bg-[#e9e8dc] px-6 py-8 text-center text-xs text-[#69705c]">
-        © {new Date().getFullYear()} Baseplate Group. All rights reserved.
-      </footer>
+© 2026 Baseplate Group. All rights reserved.      </footer>
     </main>
   );
 }

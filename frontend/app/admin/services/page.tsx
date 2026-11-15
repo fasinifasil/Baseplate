@@ -16,7 +16,7 @@ type Service = {
   is_active: boolean;
 };
 
-const API_URL = "http://127.0.0.1:8000/api/admin/services/";
+const API_URL = "https://baseplate-0ahp.onrender.com/api/admin/services/";
 
 const emptyForm = {
   title: "",

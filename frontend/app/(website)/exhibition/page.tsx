@@ -1,8 +1,9 @@
 
 import Link from "next/link";
-
+import { connection } from "next/server";
+export const instant = false;
 const API_BASE =
-  process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000/api";
+  process.env.NEXT_PUBLIC_API_BASE_URL || "https://baseplate-0ahp.onrender.com/api";
 
 type Project = {
   id?: number;
@@ -28,7 +29,7 @@ function getImageUrl(image?: string | null) {
     return image;
   }
 
-  return `http://127.0.0.1:8000${image.startsWith("/") ? "" : "/"}${image}`;
+return `https://baseplate-0ahp.onrender.com${image.startsWith("/") ? "" : "/"}${image}`;
 }
 
 async function getExhibitionProjects(): Promise<Project[]> {
@@ -61,6 +62,7 @@ async function getExhibitionProjects(): Promise<Project[]> {
 }
 
 export default async function ExhibitionPage() {
+  await connection();
   const projects = await getExhibitionProjects();
 
   return (
