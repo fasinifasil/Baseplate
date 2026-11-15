@@ -126,33 +126,7 @@ export default function ProjectsPage() {
 
   return (
     <main className="min-h-screen bg-[#f6f3eb] text-[#263321]">
-      <header className="sticky top-0 z-40 border-b border-[#e2dece] bg-[#f6f3eb]/95 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-[1500px] items-center justify-between px-6 py-3 lg:px-12">
-          <a href="/" aria-label="Baseplate Group home">
-            <img
-              src="/images/design.jpeg"
-              alt="Baseplate Group"
-              className="h-14 w-auto max-w-[220px] object-contain"
-            />
-          </a>
-
-          <nav className="hidden items-center gap-8 text-sm font-medium lg:flex">
-            <a href="/" className="transition hover:text-[#87945c]">Home</a>
-            <a href="/about" className="transition hover:text-[#87945c]">About</a>
-            <a href="/exhibition" className="transition hover:text-[#87945c]">Exhibition</a>
-            <a href="/interior" className="transition hover:text-[#87945c]">Interior</a>
-            <a href="/our-projects" className="border-b border-[#87945c] pb-1 text-[#647344]">Projects</a>
-            <a href="/contact" className="transition hover:text-[#87945c]">Contact</a>
-          </nav>
-
-          <a
-            href="/contact"
-            className="rounded-full bg-[#29391c] px-6 py-3 text-xs font-semibold tracking-wide text-white transition hover:bg-[#71813c]"
-          >
-            GET A QUOTE ↗
-          </a>
-        </div>
-      </header>
+      
 
       <section className="relative isolate flex min-h-[520px] items-end overflow-hidden bg-[#24321f] lg:min-h-[650px]">
         <img
