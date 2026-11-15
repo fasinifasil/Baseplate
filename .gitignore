@@ -9,3 +9,9 @@ node_modules/
 .next/
 out/
 db.sqlite3
+db.sqlite3
+db-backup.sqlite3
+data-backup.json
+.env
+.env.*
+frontend/.git-backup/
